@@ -1,11 +1,9 @@
 body {
-	background-color: #fff;
-}
-.title {
-	text-align: center;
+	background-color: #333;
 }
 .subtitles {
+	text-align: center;
 	position: relative;
-	top: 0%;
-	transform: translateY(-0%);
+	top: 50%;
+	transform: translateY(-50%);
 }
