@@ -1,24 +1,28 @@
 body {
 	background-color: #0ed8c4;
 }
-.vcenter {
+.landingPage{
+	font-family: 'Oswald', sans-serif;
+	color: #f26a2c;
+	height: 100%;
+}
+.landingPage .center {
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.landingPage .title {
+	font-size: 50px;
+}
+.landingPage .subtitles {
+	font-size: 25px;
+}
+.companyDesc {
 	text-align: center;
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
 	color: #f26a2c;
 	font-family: 'Oswald', sans-serif;
-}
-.title {
-	font-size: 50px;
-}
-.subtitles {
-	font-size: 25px;
-}
-.sectionone {
-	text-align: center;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-
 }
