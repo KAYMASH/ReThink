@@ -13,16 +13,30 @@ body {
 	transform: translateY(-50%);
 }
 .landingPage .title {
-	font-size: 50px;
+	font-size: 100px;
 }
 .landingPage .subtitles {
-	font-size: 25px;
+	font-size: 50px;
 }
 .companyDesc {
-	text-align: center;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-	color: #f26a2c;
 	font-family: 'Oswald', sans-serif;
+	color: #f26a2c;
+	height: 100%;
+}
+.companyDesc .center{
+	text-align: center;
+}
+.companyDesc .title {
+	font-size: 25px;	
+}
+.companyDesc .list {
+	text-align: left;
+	display: inline-block;
+}
+.subjects {
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Oswald', sans-serif;
+	color: #f26a2c;
+	height: 100%;
 }
