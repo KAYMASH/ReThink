@@ -35,8 +35,11 @@ body {
 }
 .subjects {
 	text-align: center;
+	height: 100%;
+}
+.subjects a {
+	text-decoration: none;
 	font-size: 25px;
 	font-family: 'Oswald', sans-serif;
 	color: #f26a2c;
-	height: 100%;
 }
